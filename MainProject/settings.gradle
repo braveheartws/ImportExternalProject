@@ -1,0 +1,8 @@
+include ':app',':extlib'
+rootProject.name = "MainProject"
+project(':extlib').projectDir = new File("../ExternalProject/extlib")
+
+//  ./ : 代表当前目录     ../  :  父目录    ../../ : 爷爷目录
+
+//settingsDir 代表当前目录
+//project(':ExternalProject:extlib').projectDir = new File(settingsDir,"../ExternalProject")

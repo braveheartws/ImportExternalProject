@@ -1,0 +1,3 @@
+include ':extlib'
+include ':app'
+rootProject.name = "ExternalProject"
